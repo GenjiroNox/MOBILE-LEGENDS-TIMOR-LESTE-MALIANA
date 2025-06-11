@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AUMENTA IMI NIA SKILL MOBILE LEGENDS HAMUTUK HO AMI TUF</title>
+<style>
+  :root {
+    --primary-color: #2c7a7b;
+    --secondary-color: #285e61;
+    --accent-color: #f6ad55;
+    --bg-color: #f0f4f8;
+    --text-color: #2d3748;
+    --header-height: 60px;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    color: var(--secondary-color);
+  }
+
+  /* Mobile nav toggle button */
+  .menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+  }
+
+  section {
+    margin-bottom: 3rem;
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+  }
+
+  section h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+  }
+
+  /* Programs */
+  .program-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+  }
+
+  .program-list li {
+    background-color: var(--bg-color);
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 6px solid var(--accent-color);
+    font-weight: 600;
+  }
+
+  /* Faculty */
+  .faculty-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .faculty-member {
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 220px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+    text-align: center;
+  }
+
+  .faculty-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.75rem;
+  }
+
+  .faculty-member h3 {
+    margin: 0.5rem 0 0.25rem;
+    color: var(--secondary-color);
+  }
+
+  .faculty-member p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #4a5568;
+  }
+
+  /* Contact form */
+  form {
+    max-width: 500px;
+    margin-top: 1rem;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #cbd5e0;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+
+  form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  form button:hover,
+  form button:focus {
+    background-color: var(--secondary-color);
+  }
+
+  /* Footer */
+  footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  /* Responsive */
+  @media(max-width: 600px) {
+    nav {
+      position: absolute;
+      top: var(--header-height);
+      right: 0;
+      background-color: var(--primary-color);
+      flex-direction: column;
+      width: 180px;
+      display: none;
+      border-radius: 0 0 0 8px;
+      padding: 1rem 0;
+      box-shadow: -4px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    nav.show {
+      display: flex;
+    }
+
+    .menu-toggle {
+      display: block;
+      color: white;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>AUMENTA IMI NIA SKILL MOBILE LEGENDS HAMUTUK HO AMI TUF</h1>
+  <div class="menu-toggle" aria-label="Toggle navigation menu" tabindex="0">&#9776;</div>
+  <nav>
+    <a href="#about">Konaba ami</a>
+    <a href="#programs">Programa Estudu</a>
+    <a href="#faculty">Dosente & Staff</a>
+    <a href="#contact">Kontakto</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about" tabindex="0">
+    <h2>Konaba ba game Mobile legends bang bang Timor Leste Maliana</h2>
+    <p>Atu halimar mobile legends sai makas liu tan persija estuda barak mai estuda hamutuho ami.</p>
+  </section>
+
+  <section id="program" tabindex="0">
+    <h2>Imi bele Estuda</h2>
+    <ul class="program-list">
+      <li>Estuda Jungle</li>
+      <li>Estuda Mid lane</li>
+      <li>Estuda Roam</li>
+      <li>Estuda Gold lane</li>
+      <li>Estuda Exp lane</li>
+      <li>Rotasi Jungle</li>
+      <li>Rotasi Mid lane</li>
+      <li>Rotasi Roam</li>
+      <li>Rotasi Exp</li> 
+     <li>Rotasi Gold lane husi Early to late game</li>
+    </ul>
+  </section>
+
+  <section id="faculty" tabindex="0">
+    <h2>COACH HUSI TIM THE UCHIHA FAMILY</h2>
+    <div class="faculty-list">
+      <div class="faculty-member" tabindex="0">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto Joao Ximenes" />
+        <h3>GENJIRO</h3>
+        <p>COACH</p>
+      </div>
+      <div class="faculty-member" tabindex="0">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto Amelia Gouveia" />
+        <h3>Coolboy</h3>
+        <p>CAPTEN</p>
+      </div>
+      <div class="faculty-member" tabindex="0">
+        <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Foto Agus Prasetyo" />
+        <h3>Miracle boy</h3>
+        <p>COACH SPECIAL GOLD LANE</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" tabindex="0">
+    <h2>Kontakto Ami</h2>
+    <form id="contact-form" aria-label="Formulir kontak">
+      <label for="name">Naran Kompletu</label>
+      <input type="text" id="name" name="name" placeholder="Hakerek Ita Nia Naran Kompletu" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Entri Ita Nia Endereco Email" required />
+
+      <label for="message">Menssagen</label>
+      <textarea id="message" name="message" rows="4" placeholder="Ketik Ita Boot Nia Menssagen iha nee ..." required></textarea>
+
+      <button type="submit">Envia</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; THE UCHIHA FAMILY ESPORT - HUSI GENJIRO DACOSTA MAIA.</p>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const menuToggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('nav');
+  
+  menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+  
+  menuToggle.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      nav.classList.toggle('show');
+      e.preventDefault();
+    }
+  });
+
+  // Contact form submission handling
+  const form = document.getElementById('contact-form');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Obrigadu ba Kontaktu Ami., ' + form.name.value + '! Ita-Nia Mensajen Envia Tiha Ona.');
+    form.reset();
+  });
+</script>
+</body>
+</html>
+
